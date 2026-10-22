@@ -1,0 +1,144 @@
+[
+  {
+    "id": "ecommerce",
+    "name": "Saudi E-Commerce & Last-Mile Delivery",
+    "category": "Business intelligence",
+    "filter": "business",
+    "metric": "400,000",
+    "unit": "simulated orders",
+    "tools": [
+      "Python",
+      "MySQL",
+      "Power BI",
+      "Excel"
+    ],
+    "description": "A six-page analytical study of simulated orders, customers, sales, delivery performance, cancellations and returns.",
+    "question": "How can an e-commerce business identify sales-quality and last-mile delivery bottlenecks?",
+    "approach": "Model customer, product, order and order-item tables; validate transactions; calculate sales and delivery KPIs; compare growth, average order value and fulfillment performance.",
+    "insight": "Order growth alone is not proof of stronger commercial performance. Compare delivered sales, average order value and late deliveries before recommending operational action.",
+    "image": null
+  },
+  {
+    "id": "retail",
+    "name": "Saudi Retail Profitability",
+    "category": "Business intelligence",
+    "filter": "business",
+    "metric": "30,000",
+    "unit": "simulated transactions",
+    "tools": [
+      "Excel",
+      "SQL",
+      "Power BI"
+    ],
+    "description": "Exploring discount exposure, product margins, sales channels and category concentration.",
+    "question": "Which discount and category patterns may put gross margin under pressure?",
+    "approach": "Clean and segment transactions by discount band, category and channel; compute revenue, estimated gross profit and margin measures.",
+    "insight": "The case study estimated 32.93% margin for non-discounted transactions versus 18.94% for discounts above 10%: a 13.99 percentage-point difference, not a measured business saving.",
+    "image": "retail"
+  },
+  {
+    "id": "unicef",
+    "name": "UNICEF India \u00b7 Child Health Indicators",
+    "category": "Public data",
+    "filter": "public",
+    "metric": "6",
+    "unit": "child-health indicators",
+    "tools": [
+      "Python",
+      "SQL",
+      "Data Validation"
+    ],
+    "description": "India-only analysis of ARI care-seeking, ORS treatment, ITN use and immunization coverage using UNICEF source data.",
+    "question": "What do India\u2019s reported child-health indicators show, and how do reference years differ?",
+    "approach": "Filter UNICEF Global Dataflow to India (IND), match six source indicator codes, retain the reporting year and compare historical observations.",
+    "insight": "Latest selected values: ARI 56.1%, ORS 60.6%, child ITN use 4.4%, household ITN ownership 7.9% (2021); DTP3 and MCV2 95% (2025). Different reporting years must not be conflated.",
+    "image": "unicef"
+  },
+  {
+    "id": "hashtags",
+    "name": "Hashtag Effectiveness & Engagement",
+    "category": "Academic research",
+    "filter": "research",
+    "metric": "340",
+    "unit": "survey participants",
+    "tools": [
+      "Excel",
+      "SPSS",
+      "Research"
+    ],
+    "description": "MBA research project investigating perceptions of hashtags, content formats and social media engagement.",
+    "question": "How do respondents perceive hashtags and their influence on engagement?",
+    "approach": "Organize and analyze 340 survey responses, summarize descriptive results and develop content-testing recommendations.",
+    "insight": "Surveyed perceptions should be distinguished from observed campaign conversion or causal performance.",
+    "image": "hashtags"
+  },
+  {
+    "id": "energy",
+    "name": "Saudi Energy Demand & Load",
+    "category": "Independent exploration",
+    "filter": "business",
+    "metric": "58K+",
+    "unit": "simulated observations",
+    "tools": [
+      "Python",
+      "SQL",
+      "Power BI"
+    ],
+    "description": "Exploratory patterns in daily energy demand across cities and sectors using synthetic data.",
+    "question": "How does modeled energy demand vary by geography, sector and season?",
+    "approach": "Aggregate daily simulated records, compare sector and city trends and visualize load patterns.",
+    "insight": "Designed to demonstrate time-series exploration; synthetic observations are not official Saudi energy statistics.",
+    "image": null
+  },
+  {
+    "id": "workforce",
+    "name": "Saudi Workforce & Labor Market",
+    "category": "Independent exploration",
+    "filter": "business",
+    "metric": "BI",
+    "unit": "workforce reporting",
+    "tools": [
+      "Excel",
+      "Power BI"
+    ],
+    "description": "A simulated labor-market reporting case study on workforce patterns and vacancies.",
+    "question": "Where does the modeled labor market indicate changes in workforce demand?",
+    "approach": "Prepare labor-market measures and visualize employment, vacancy and demographic trends.",
+    "insight": "Useful for demonstrating workforce analytics, not for estimating actual Saudi vacancies.",
+    "image": "workforce"
+  },
+  {
+    "id": "tourism",
+    "name": "Saudi Tourism & Hospitality",
+    "category": "Independent exploration",
+    "filter": "business",
+    "metric": "840",
+    "unit": "city-month observations",
+    "tools": [
+      "Excel",
+      "Power BI"
+    ],
+    "description": "Simulated tourism, visitor and accommodation performance reporting.",
+    "question": "How do tourism and occupancy metrics vary across cities and time?",
+    "approach": "Build month-by-city performance summaries and compare modeled demand and accommodation indicators.",
+    "insight": "Illustrative reporting only; modeled visitor trends are not published tourism figures.",
+    "image": null
+  },
+  {
+    "id": "realestate",
+    "name": "Saudi Real Estate Analytics",
+    "category": "Independent exploration",
+    "filter": "business",
+    "metric": "12K",
+    "unit": "simulated transactions",
+    "tools": [
+      "SQL",
+      "Power BI"
+    ],
+    "description": "Analyzing simulated real-estate transactions and price patterns.",
+    "question": "How do modeled property prices and transaction mix vary across segments?",
+    "approach": "Group property transactions by location, type and period; create price and volume measures.",
+    "insight": "Shows segmentation and market-reporting techniques using synthetic data.",
+    "image": null
+  }
+]
